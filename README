@@ -1,0 +1,8 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=897
+
+If you want to scroll backward (and forward) and search within long output of the vim command (such as :au, :let), execute command with prefix VO. 
+
+VO (viewoutput) will place output of vim command in new buffer where you can search and view it using vim commands. Example:
+
+      :VO au
+      :VO let
